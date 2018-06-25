@@ -23,3 +23,4 @@ puts "The car has a #{prius.stereo}"
 
 Cars.count
 puts Cars.count
+end
