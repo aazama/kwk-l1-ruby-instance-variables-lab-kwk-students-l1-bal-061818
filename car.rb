@@ -25,5 +25,7 @@ def stereo
     @cam
   end
 
+end 
+
 toyota = Cars.new("Camry", "Toyota", "1997")
 prius = Cars.new ("Prius", "Toyota", "2011")
