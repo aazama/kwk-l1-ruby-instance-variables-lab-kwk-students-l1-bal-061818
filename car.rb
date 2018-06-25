@@ -1,4 +1,6 @@
 class Cars
+  attr_accessor :stereo, :car
+
 
 def initialize(model, make, year)
     @model = model
@@ -9,24 +11,9 @@ def initialize(model, make, year)
   end
 end
 
-def stereo=(car_stereo)
-  @stereo = car_stereo
-end
-
-def stereo
-    @stereo
-  end
-
-  def cam=(backup_cam)
-    @cam = backup_cam
-  end
-
-  def cam
-    @cam
-  end
 
 toyota = Cars.new("Camry", "Toyota", "1997")
-prius = Cars.new ("Prius", "Toyota", "2011")
+prius = Cars.new("Prius", "Toyota", "2011")
 prius.stereo = "Vimeo"
 
 puts "The car has a #{prius.stereo}"
