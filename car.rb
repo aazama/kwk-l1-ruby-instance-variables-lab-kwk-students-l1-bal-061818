@@ -10,7 +10,7 @@ def initialize(model, make, year)
     puts "I love my #{year} #{model}. It is a #{make}. "
   end
 
-def self.carscount
+def self.count
   @@carscount
 end
 
